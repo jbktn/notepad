@@ -4,9 +4,10 @@
 </script>
 
 <template>
-  <header>
-    <div class="headtext">Notepad</div>
-  </header>
+  <div class="navbar">
+    <router-link to='login'>login</router-link>
+    <router-link to='register'>register</router-link>
+  </div>
 
   <main>
 
@@ -14,17 +15,7 @@
 </template>
 
 <style scoped>
-  header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10%;
-    background-color: rgb(33,51,33);
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    font-size: larger;
+  main {
+
   }
 </style>
