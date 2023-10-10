@@ -24,27 +24,22 @@
 <style scoped>
 
   header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10%;
-    background-color: rgb(5 5 5);
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    font-size: larger;
+    background-color: rgb(17 24 39);
     color: aliceblue;
   }
   .home{
     font-size: 2rem;
     font-weight: 600;
+
   }
   .navlinks{
     font-size: 1.25rem;
     font-weight: 300;
-
+    position: absolute;
+    top: 8px;
+    right: 3rem;
+    display: flex;
+    justify-content: space-between;
   }
   .navbutton{
 
