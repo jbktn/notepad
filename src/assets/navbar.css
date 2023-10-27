@@ -1,0 +1,67 @@
+.navbar{
+    border-bottom: solid 3px;
+    border-color: #aaa9ef;
+    /*background-color: #b7b6f1;*/
+    -webkit-box-shadow: 0px 18px 24px -4px rgba(183, 182, 241, 1);
+    -moz-box-shadow: 0px 18px 24px -4px rgba(183, 182, 241, 1);
+    box-shadow: 0px 18px 24px -4px rgba(183, 182, 241, 1);
+}
+
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar-homebutton{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 20px;
+
+}
+.navbar-navlinks{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 8rem;
+    align-items: center;
+}
+.navbar-navbutton a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+dark {
+background - #27282C
+primary - #111827
+secondary - #57518A
+accent - #5900FF
+text - #C3C3C3
+},
+light {
+background - #d4d5d9
+primary - #d8dfee
+secondary - #7b75ae
+accent - #5900ff
+text - #3d3d3d
+}
+*/
+
+/*
+dark {
+background - #e6e5fa
+primary - #aaa9ef
+secondary - #b7b6f1
+accent - #2623b8
+text - #080727
+},
+light {
+background - #06051a
+primary - #111056
+secondary - #0f0e49
+accent - #4947dc
+text - #d9d8f8
+}
+*/

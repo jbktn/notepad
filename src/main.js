@@ -1,11 +1,13 @@
 import './assets/main.css'
+import './assets/navbar.css'
+import './assets/home.css'
 
 import { createApp } from 'vue'
 import {createRouter, createWebHistory} from 'vue-router'
 import App from './App.vue'
-import Home from './components/Home.vue'
-import Login from './components/login.vue'
-import Register from './components/register.vue'
+import Home from './views/Home.vue'
+import Login from './views/login.vue'
+import Register from './views/register.vue'
 
 
 const routes = [

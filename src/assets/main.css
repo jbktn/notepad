@@ -2,9 +2,34 @@
 
 #app {
     font-family: 'Roboto', sans-serif;
-
+    color:#080727;
 }
 
 body {
-    background-color: rgb(30 41 59);
+    background-color: #e6e5fa;
+    margin: 0;
 }
+
+.content{
+    padding: 0 4rem;
+}
+
+html{
+}
+
+/*
+dark {
+background - #27282C
+primary - #111827
+secondary - #57518A
+accent - #5900FF
+text - #C3C3C3
+},
+light {
+background - #d4d5d9
+primary - #d8dfee
+secondary - #7b75ae
+accent - #5900ff
+text - #3d3d3d
+}
+*/
