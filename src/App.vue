@@ -1,6 +1,14 @@
-<script setup>
-
-</script>
+<style>
+  .navbar-navbutton{
+    border: none;
+    border-right: 1px solid #2623b8;
+    border-left: 1px solid #2623b8;
+    padding: 0 0.5rem;
+    background-color: #e6e5fa;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+</style>
 
 <template>
   <div class="navbar">
