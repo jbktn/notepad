@@ -28,7 +28,7 @@ props: ['popup']
   z-index: 100;
   top: 50%;
   left: 50%;
-  margin: -7.5rem 0 0 -10rem;
+  margin: -7.5rem 0 0 -7.5rem;
   align-items: center;
   width: 15rem;
   height: 20rem;
@@ -74,6 +74,7 @@ h2{
   background-color: #b7b6f1;
   font-size: 1rem;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 .login-popup-form-button:hover{

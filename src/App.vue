@@ -24,7 +24,7 @@
 <!--          <router-link to='/Login'>login</router-link>-->
         </button>
         <div class="navbar-navbutton">
-          <router-link to='/Register'>register</router-link>
+          <router-link to='/Register'>Register</router-link>
         </div>
       </div>
     </header>
