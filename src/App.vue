@@ -1,10 +1,11 @@
 <style>
   .navbar-navbutton{
+    color: var(--text);
     border: none;
-    border-right: 1px solid #2623b8;
-    border-left: 1px solid #2623b8;
+    border-right: 1px solid var(--Primary);
+    border-left: 1px solid var(--Primary);
     padding: 0 0.5rem;
-    background-color: #e6e5fa;
+    background-color: var(--Secondary);
     font-size: 1rem;
     font-weight: bolder;
   }

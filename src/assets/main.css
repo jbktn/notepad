@@ -15,11 +15,11 @@
 
 #app {
     font-family: 'Roboto', sans-serif;
-    color:#080727;
+    color: var(--text);
 }
 
 body {
-    background-color: #e6e5fa;
+    background-color: var(--Backgound);
     margin: 0;
 }
 

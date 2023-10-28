@@ -3,7 +3,7 @@
 }
 
 .content-slogan-gradient, .navbar-homebutton {
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(170, 169, 239, 1) 24%, rgba(38, 35, 184, 1) 100%);
+    background: linear-gradient(90deg, #d6895c 0%, #ce713b 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
