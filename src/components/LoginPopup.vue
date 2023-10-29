@@ -4,7 +4,6 @@ props: ['popup']
 
 <template>
   <div class="login-popup">
-    <!--    <div class="login-popup-container">-->
     <h2>Login</h2>
     <div class="login-popup-form">
       <div class="login-popup-form-username">
@@ -17,7 +16,6 @@ props: ['popup']
         <button class="login-popup-form-button">Submit</button>
       </div>
     </div>
-    <!--    </div>-->
   </div>
 </template>
 
