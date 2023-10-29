@@ -23,7 +23,7 @@ props: ['popup']
 
 <style>
 .login-popup {
-  background-color:  #e6e5fa;
+  background-color:  var(--Secondary);
   position: absolute;
   z-index: 100;
   top: 50%;
@@ -37,9 +37,6 @@ props: ['popup']
   align-content: center;
   flex-direction: column;
   justify-content: center;
-  -webkit-box-shadow: 8px 8px 24px 0px rgba(75, 74, 113, 1);
-  -moz-box-shadow: 8px 8px 24px 0px rgba(75, 74, 113, 1);
-  box-shadow: 8px 8px 24px 0px rgba(75, 74, 113, 1);
 }
 
 .login-popup-form{
@@ -62,16 +59,16 @@ props: ['popup']
 h2{
   font-size: 2.5rem;
   margin: 0 0 0.7rem 0;
-  background: linear-gradient(180deg, rgba(123,117,174,1) 0%, rgba(89,0,255,1) 100%);
+  background: linear-gradient(90deg, #d6895c 0%, #ce713b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .login-popup, .login-popup-input, .login-popup-form-button{
-  border: solid 1px #2623b8;
+  border: solid 1px var(--Accent);
 }
 
 .login-popup-form-button{
-  background-color: #b7b6f1;
+  background-color: var(--Primary);
   font-size: 1rem;
   font-weight: bolder;
   cursor: pointer;

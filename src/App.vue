@@ -1,13 +1,27 @@
 <style>
-  .navbar-navbutton{
+  .navbar-navbutton-l{
     color: var(--text);
     border: none;
-    border-right: 1px solid var(--Primary);
-    border-left: 1px solid var(--Primary);
-    padding: 0 0.5rem;
+    border-top: 2px solid var(--Primary);
+    border-bottom: 2px solid var(--Primary);
+    border-left: 2px solid var(--Primary);
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    padding: 0.1rem 1rem;
     background-color: var(--Secondary);
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bolder;
+  }
+  .navbar-navbutton-r{
+    color: var(--text);
+    border: 2px solid var(--Primary);
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 0.1rem 1rem;
+    background-color: var(--Secondary);
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-decoration: none;
   }
 </style>
 
@@ -20,11 +34,11 @@
         </router-link>
       </div>
       <div class="navbar-navlinks">
-        <button @click="toggleLoginPopup" class="navbar-navbutton">
+        <button @click="toggleLoginPopup" class="navbar-navbutton-l">
           Login
 <!--          <router-link to='/Login'>login</router-link>-->
         </button>
-        <div class="navbar-navbutton">
+        <div class="navbar-navbutton-r">
           <router-link to='/Register'>Register</router-link>
         </div>
       </div>
